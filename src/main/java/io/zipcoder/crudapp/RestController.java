@@ -20,7 +20,4 @@ public class RestController {
         return new Person(id.incrementAndGet(),
                 String.format(template, name));
     }
-
-
-
 }
